@@ -9,6 +9,7 @@ public class CICDController {
 	@GetMapping("fisa1")
 	public String reqRes() {
 		System.out.println("reqRes() *******");
+		System.out.println("ci/cd test");
 		return "요청 응답 성공";
 	}
 }
