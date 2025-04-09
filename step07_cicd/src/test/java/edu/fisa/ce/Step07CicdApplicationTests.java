@@ -18,7 +18,7 @@ class Step07CicdApplicationTests {
 		 * 개발 중에 데이터에 대한 test 검증용등으로 사용
 		 */
 		System.out.println("비교 전*************");
-		assertEquals(1, result);
+		assertEquals(15, result);
 		System.out.println("비교 후*************");
 	}
 }
